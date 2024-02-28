@@ -1,0 +1,145 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.col {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #ff7043;
+}
+
+.pizza-orders-display {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pizza-stage {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 10px;
+}
+
+.pizza-card {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.pizza-card .card-body {
+  padding: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn,
+.next-btn {
+  padding: 3px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: none;
+}
+
+.cancel-btn:hover,
+.next-btn:hover {
+  background-color: transparent;
+}
+
+.card-red {
+  background-color: #ffcccc;
+}
+
+.card-orange {
+  background-color: #ffd699;
+}
+
+.card-yellow {
+  background-color: #ffff99;
+}
+
+.main-display {
+  margin-top: 20px;
+}
+
+.main-display table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main-display th, .main-display td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.main-display th {
+  background-color: #f2f2f2;
+}
+
+.main-display tr:hover {
+  background-color: #f5f5f5;
+}
+
+.main-display p {
+  margin-top: 10px;
+}
